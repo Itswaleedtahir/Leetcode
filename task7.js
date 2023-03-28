@@ -17,3 +17,17 @@ var twoSum = function(numbers, target) {
     }
     return[-1,-1]
 };
+
+// more optimized
+
+var su = function(numbers ,taargets){
+    let l =0
+    r=numbers.length-1
+    while(l<r){
+        let sum = numbers[l]+numbers[r]
+        if(sum===target)break;
+        else if(sum>target)r--
+        else l++
+    }
+    return [l+1,r+1]
+}
