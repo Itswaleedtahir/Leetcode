@@ -6,4 +6,5 @@ const removeZero=function(nums){
             nums.push(0)
         }
     }
+    return nums
 }
