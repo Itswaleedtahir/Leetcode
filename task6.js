@@ -1,3 +1,5 @@
+// Shifting Zeros
+
 const removeZero=function(nums){
     let end = nums.length-1
     for(let i =end;i>=0;i--){
