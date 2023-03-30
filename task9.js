@@ -1,3 +1,5 @@
+// Is Subsequence
+
 const equal = function(s,t){
     if(s.length>t.length)return  false;
     const t_length=t.length;
